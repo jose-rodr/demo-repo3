@@ -1,5 +1,5 @@
 class Programmer:
-    passion = 'Programming'
+    passion = 'Programming outdoors'
 
     def __init__(self, name, age, country, role, company, tech_stack):
         self.name = name
