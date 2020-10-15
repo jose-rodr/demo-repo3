@@ -21,3 +21,5 @@ class Programmer:
     @staticmethod
     def greet():
         return f"Hi, I am a programmer."
+
+jose = Programmer("José Gabriel", 16, "Dominican Republic", "Front-end developer")
