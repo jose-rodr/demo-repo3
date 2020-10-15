@@ -1,11 +1,12 @@
 class Programmer:
     passion = 'Programming'
 
-    def __init__(self, name, age, country, role):
+    def __init__(self, name, age, country, role, tech_stack):
         self.name = name
         self.age = age
         self.country = country
         self.role = role
+        self.tech_stack = tech_stack
 
     def change_role(self, new_role):
         self.role = new_role
@@ -22,4 +23,4 @@ class Programmer:
     def greet():
         return f"Hi, I am a programmer."
 
-jose = Programmer("José Gabriel", 16, "Dominican Republic", "Front-end developer")
+jose = Programmer("José Gabriel", 16, "Dominican Republic", "Front-end developer", "MEAN")
