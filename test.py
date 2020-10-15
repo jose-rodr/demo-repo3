@@ -7,9 +7,13 @@ class Programmer:
         self.country = country
         self.role = role
 
+    def change_role(self, new_role):
+        self.role = new_role
+        return f'My new role is {self.role}.'
+
     @classmethod
     def say_passion(cls):
-        return f'My passion is {cls.passion}'
+        return f'{cls.passion} is all about passion.'
 
     @staticmethod
     def greet():
