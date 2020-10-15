@@ -10,6 +10,9 @@ class Programmer:
     def change_role(self, new_role):
         self.role = new_role
         return f'My new role is {self.role}.'
+    
+    def say_age(self):
+        return f'I am {self.age} years old.'
 
     @classmethod
     def say_passion(cls):
